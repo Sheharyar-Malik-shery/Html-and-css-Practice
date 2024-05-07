@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+#outer-parent{
+    width: 100vw;
+    overflow:hidden;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+
+#header {
+    /* background-color: rgba(0, 0, 0, 0.808); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100vw;
+    /* border: 2px solid darkorange; */
+    box-sizing: border-box;
+}
+
+#logo {
+    color: rgb(50, 49, 48);
+}
+
+#menu {
+    width: 33%;
+    /* background-color: rgba(0, 0, 0, 0.287); */
+}
+
+ul li {
+    list-style: none;
+    /* border: 2px solid red; */
+    color: rgb(50, 49, 48);
+    font-size: 12px;
+    padding: 8px 0px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:  2px solid green; */
+}
+#sec-section {
+    height: 360px;
+    width: 960px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: antiquewhite;
+}
+
+#thirs-section{
+    display: flex;
+    /* border:  2px solid green; */
+    width: 960px;
+    margin: auto;
+    padding-top: 15px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+#third-se-heading{
+    margin-bottom: 20px;
+}
+#third-se-heading + hr {
+    margin-bottom: 9px; /* Adjust the margin as needed */
+  }
+#third-sec-division li{
+ list-style: none;
+}
+#third-sec-lis{
+    padding-right: 3%;
+    /* border:  2px solid red; */
+    box-sizing: border-box;
+    width: 40%;
+    font-size: 1em
+}
+
+
+#third-sec-division li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: red; /* Change the dot color as needed */
+    margin-right: 5px; /* Adjust the margin for spacing between dot and text */
+    margin-left: 3px;
+  }
+
+#third-sec-content{
+    /* border:  2px solid rgb(0, 0, 0); */
+    box-sizing: border-box;
+    padding-right: 3px;
+}
+.fourth-sec-first-p-highlight{
+    color: red;
+}
+#fourth-sec-first-p{
+    margin: 8px 0px;
+}
+#fourth-sec-sec-p{
+    margin-bottom: 10px;
+}
+.fourth-sec-btn{
+    color: red;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+#forword-icon {
+   position: relative;
+   top: 4px;
+    
+}
+.third-sec-p{
+    margin-top: 10px;
+}
+#third-se-heading-2nd{
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+#hr-line{
+    margin-bottom: 15px;
+}
+.contact-details{
+    margin-bottom: -3px;
+}
+#email-phone{
+  margin-top: 20px;
+}
+#email{
+    color: red;
+}
+#footer{
+    /* background-color: aquamarine; */
+    display: flex;
+    width: 960px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-top:  1px solid rgba(0, 0, 0, 0.729);
+}
